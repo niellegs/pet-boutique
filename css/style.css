@@ -1,0 +1,142 @@
+:root {
+    --purple: #3c184e;
+    --white: #fff;
+    --shadow: #1f26875e;
+    --shadow2: #0000005c;
+    --font: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+header {
+    position: absolute;
+    padding: 1rem;
+}
+
+header h1 {
+    color: var(--purple);
+}
+
+header div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: auto;
+    height: 5vh;
+    padding-right: .9rem;
+}
+
+
+#banner {
+    display: relative;
+    background: url(/img/banner-topo.jpg) center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner div {
+    background-color: rgba(255, 255, 255, .7);
+    padding: 1rem;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 1rem;
+}
+
+#banner h2 {
+    color: var(--purple);
+    font-size: 4rem
+}
+
+#banner button {
+    color: var(--white);
+    background-color: var(--purple);
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 10vw;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    color: purple;
+}
+
+#servicos,
+#localizacao {
+    width: 45vw;
+    margin: 0 auto;
+}
+
+main span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+main h2 {
+    text-align: center;
+    color: var(--purple);
+    padding: 1.5rem 0;
+    font-size: 1.7rem;
+}
+
+main li {
+    padding: .5rem;
+}
+
+main #servicos .images {
+    box-shadow: .2rem .2rem 2rem var(--shadow);
+}
+
+#marcas div {
+    width: 35vw;
+    margin: 0 auto;
+}
+
+.purpleBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    color: var(--white);
+    width: 100vw;
+    height: 30vh;
+}
+
+.purpleBanner div {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 17vw;
+}
+
+.purpleBanner div div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+#localizacao {
+    text-align: center;
+}
+
+footer {
+    margin-top: 1rem;
+    height: 7vh;
+}
