@@ -36,7 +36,7 @@ header img {
 
 #banner {
     display: relative;
-    background: url(/img/banner-topo.jpg) center/cover;
+    background: url(./img/banner-topo.jpg) center/cover;
     width: 100vw;
     height: 100vh;
 }
